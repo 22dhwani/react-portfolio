@@ -1,7 +1,7 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
-import { profile, menu, close } from "../../assets";
+import { profile,  } from "../../assets";
 
 import { services } from "../../constants";
 import { SectionWrapper } from "../../hoc";

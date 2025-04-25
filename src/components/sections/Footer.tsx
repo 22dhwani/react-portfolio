@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MapPin, Linkedin ,Github} from "lucide-react";
-import { logo, menu, close } from "../../assets";
+import { logo, } from "../../assets";
 
 
 
