@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Dhwani Sheth — 3D Portfolio",
+    fullName: "Dhwani Sheth",
+    email: "dhwanisheth2202@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Dhwani Sheth",
+    p: ["I design smart, scalable software—combining data-driven logic with polished user experiences."],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a results-driven full-stack software developer with professional experience delivering scalable web applications, intelligent data pipelines, and modern UI/UX experiences. With a strong foundation in JavaScript, TypeScript, and Python, I specialize in frameworks like React, Node.js, Next.js, and Laravel. I’ve led cross-functional projects for startups and enterprise clients—optimizing APIs, streamlining backend infrastructure, and developing AI-driven tools that serve 20,000+ users. I'm passionate about solving real-world problems through clean code, intuitive design, and data-backed insights. Let’s turn your vision into impactful software.`,
     },
     experience: {
       p: "What I have done so far",

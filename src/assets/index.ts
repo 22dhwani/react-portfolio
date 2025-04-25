@@ -1,4 +1,6 @@
 import logo from "./logo.png";
+import profile from "./profile.jpg";
+
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -19,16 +21,30 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import laravel from "./tech/laravel.jpeg";
+import aws from "./tech/aws.png";
+
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import devkruti from "./company/devkruti.png";
+import bridgingdivides from "./company/bridgingdivides.jpg";
+import kodecreators from "./company/kodecreators.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import errandd from "./errandd.png";
+import medidata from "./medidata.png";
 import tripguide from "./tripguide.png";
+import trackobill from "./trackobill.png";
+import divyachemicals from "./divyachemicals.png";
+import luxurialist from "./luxurialist.png";
+import ebrhaim from "./ebrahim.jpg";
+import nirav from "./nirav.jpeg";
+import krutarth from "./krutarth.jpeg";
+
+
+
+
+
+
 
 export {
   logo,
@@ -51,12 +67,20 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
+  aws,
   meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
+  devkruti,
+  bridgingdivides,
+  kodecreators,
+  errandd,
+  medidata,
   tripguide,
+  profile,
+  laravel,
+  trackobill,
+  divyachemicals,
+  luxurialist,
+  ebrhaim,
+  nirav,
+  krutarth
 };

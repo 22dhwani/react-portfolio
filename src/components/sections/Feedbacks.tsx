@@ -6,6 +6,7 @@ import { testimonials } from "../../constants";
 import { Header } from "../atoms/Header";
 import { TTestimonial } from "../../types";
 import { config } from "../../constants/config";
+import { SectionWrapper } from "../../hoc";
 
 const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
   index,
@@ -63,4 +64,5 @@ const Feedbacks = () => {
   );
 };
 
-export default Feedbacks;
+export default SectionWrapper(Feedbacks, "feedback");
+

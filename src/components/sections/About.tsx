@@ -1,6 +1,7 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
+import { profile, menu, close } from "../../assets";
 
 import { services } from "../../constants";
 import { SectionWrapper } from "../../hoc";
@@ -48,13 +49,25 @@ const About = () => {
     <>
       <Header useMotion={true} {...config.sections.about} />
 
-      <motion.p
+      {/* Flex container for text and image */}
+      <motion.div
         variants={fadeIn("", "", 0.1, 1)}
-        className="text-secondary mt-4 max-w-3xl text-[17px] leading-[30px]"
+        className="mt-4 flex flex-col-reverse items-center justify-between gap-10 md:flex-row"
       >
-        {config.sections.about.content}
-      </motion.p>
+        {/* Text Content */}
+        <p className="text-secondary max-w-3xl text-[17px] leading-[30px]">
+          {config.sections.about.content}
+        </p>
 
+        {/* Profile/Image */}
+        <img
+         src={profile} // Replace with your actual image path
+          alt="Dhwani Sheth"
+          className="h-[300px] w-[300px] rounded-full object-cover shadow-lg md:ml-10 lg:-mt-4 mt-10"
+        />
+      </motion.div>
+
+      {/* Services */}
       <div className="mt-20 flex flex-wrap gap-10 max-sm:justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
@@ -63,5 +76,6 @@ const About = () => {
     </>
   );
 };
+
 
 export default SectionWrapper(About, "about");

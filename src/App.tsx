@@ -13,6 +13,7 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
+import Footer from "./components/sections/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -37,6 +38,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );
